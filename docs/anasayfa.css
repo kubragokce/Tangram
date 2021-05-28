@@ -1,0 +1,68 @@
+*{
+    align-items: center;
+}
+body {
+    min-height: 750px;
+    background-color: #fde7f9;
+    background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
+}
+.butonlar{
+    align-items: center;
+    position:fixed;
+
+    left:38%;
+
+    top:250px;
+
+}
+.butonlar .btn{
+    margin: 1rem;
+}
+button a{
+    color: aliceblue;
+}
+
+.rainbowBackText{
+    position:fixed;
+
+    left:35%;
+
+    top:70px;
+
+    font-size: 6rem;
+
+}
+img{
+    position:fixed;
+
+    left:40%;
+
+    top:410px;
+
+
+}
+.aciklama{
+    position:fixed;
+
+    left:33%;
+
+    top:210px;
+    padding: 2rem;
+}
+.aciklama h1{
+    margin-bottom: 2rem;
+}
+.aciklama ul li{
+    margin: 1rem;
+}
+#anasayfayadon{
+    
+    position:fixed;
+
+    left: 64%;
+
+    top: 655px;;
+}
+#anasayfayadon a{
+    color: aliceblue;
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tangram</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="manipulation.js"></script>
+    <script type="text/javascript" src="directions.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+    <script>
+      $(function(){
+       
+      $(".btnn").click(function(){
+      window.alert("Tebrikler Bölümü Geçtiniz"); 
+      });
+       
+      });
+       
+      </script>
+  </head>
+  <body>
+    <header>
+      <h1 class="rainbowBackText">Tangram</h1> 
+      
+      <div id="links">
+        &#8594; <a class="rainbowBackText" href="anasayfa.html">Anasayfa</a>
+        &#8594; <a class="rainbowBackText" href="https://en.wikipedia.org/wiki/Tangram">Tangram info</a> 
+      </div>
+      <nav class="rainbowBackText">
+        Outline:
+        <a class="choices" id="0">blank</a>
+        <a class="choices active" id="1">1</a>
+        <a class="choices" id="2">2</a>
+        <a class="choices " id="3">3</a>
+        <a class="choices" id="4">4</a>
+        <a class="choices" id="5">5</a>
+        <a class="choices" id="6">6</a>
+        <a class="choices" id="7">7</a>
+        <a class="choices" id="8">8</a>
+        <a class="choices" id="9">9</a>
+      </nav>
+      <div id ="info"> 
+        Fit all shapes in the outline. &nbsp; &nbsp;
+        &#8592; turn left &nbsp;    
+        &#8594; turn right &nbsp;    
+        &#8593; flip &nbsp;&nbsp;
+        mouse: move & select &nbsp; &nbsp;   
+        space: change color
+        
+      </div>
+    </header>
+    <section id="shapeTray">
+        <div class="shape tri sm purple"></div>
+        <div class="shape tri sm pink" ></div> 
+        <div class="shape square red"></div>
+        <div class="shape par orange clip0 rotate0"></div>
+        <div class="shape tri md yellow"></div>
+        <div class="shape tri lg green"></div>
+        <div class="shape tri lg blue"></div>
+    </section>
+    <main id="matchSpace">
+        <div id="blank" class="templates"></div>
+        <div id="one" class="templates" ><img src="1.PNG" alt="1"></div>
+        <div id="two" class="templates"><img src="2.PNG" alt="2"></div>
+        <div id="three" class="templates"><img src="3.PNG" alt="3"></div>
+        <div id="four" class="templates"><img src="4.PNG" alt="4"></div>
+        <div id="five" class="templates"><img src="5.PNG" alt="5"></div>
+        <div id="six" class="templates"><img src="6.PNG" alt="6"></div>
+        <div id="seven" class="templates"><img src="7.PNG" alt="7"></div>
+        <div id="eight" class="templates"><img src="8.PNG" alt="8"></div>
+        <div id="nine" class="templates"><img src="9.PNG" alt="9"></div>
+      </main>
+
+      <button class="btnn" type="button">Tamamla</button>
+
+    </body>
+</html>
